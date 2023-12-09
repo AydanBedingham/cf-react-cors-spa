@@ -169,6 +169,13 @@ Resources:
             ResponseHeadersPolicyId: 67f7725c-6f97-4210-82d7-5512b31e9d03 # SecurityHeadersPolicy
             ViewerProtocolPolicy: redirect-to-https
         PriceClass: PriceClass_All
+        CustomErrorResponses:
+          - ErrorCode: 404
+            ResponseCode: 200
+            ResponsePagePath: /index.html
+          - ErrorCode: 403
+            ResponseCode: 200
+            ResponsePagePath: /index.html
         Logging:
           Bucket: !GetAtt LoggingBucket.RegionalDomainName
           Prefix: 'cloudfront-access-logs'
