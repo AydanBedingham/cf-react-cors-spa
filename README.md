@@ -1,4 +1,7 @@
-![Continuous Integration](https://github.com/aws-samples/react-cors-spa/actions/workflows/ci.yml/badge.svg)
+
+This respository is based on the [react-cors-spa](https://github.com/aws-samples/react-cors-spa) sample code for the AWS Prescriptive Guidance [Deploy a React-based single-page application to Amazon S3 and CloudFront](https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/deploy-a-react-based-single-page-application-to-amazon-s3-and-cloudfront.html) article. It includes modifications to the ReactJS application and CloudFormation template to support React Router navigation implemented through the [react-router-dom](https://www.npmjs.com/package/react-router-dom) dependency.
+
+Support for route based navigation in the ReactJS single page application is achieved by leveraging the CloudFront Distribution's [Custom Error Responses](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cloudfront-distribution-customerrorresponse.html) to replace error response codes and payloads with valid respones corresponding to the index page. The approach is detailed in the [Deploy React Web App on AWS S3 and CloudFront using CloudFormation (via AWS SAM CLI)](https://aws.plainenglish.io/deploy-react-web-app-on-aws-s3-and-cloudfront-using-cloudformation-via-aws-sam-cli-409aa479063d) article.
 
 # Getting Started with the React Cors Application
 
