@@ -50,6 +50,9 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+## Routing
+![image](ReactJS-SPA-Routing.SequenceDiagram.org.png)
+
 ## License
 
 This sample application is licensed under [the MIT-0 License](https://github.com/aws/mit-0).
