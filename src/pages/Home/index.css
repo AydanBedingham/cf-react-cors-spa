@@ -1,41 +1,41 @@
-.App {
+.Home {
   text-align: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-MainLogo {
+.Home-MainLogo {
   height: 15vmin;
 }
 
-.App-logoL2R {
+.Home-logoL2R {
   height: 20vmin;
   pointer-events: none;
 }
 
-.App-logoR2L {
+.Home-logoR2L {
   height: 20vmin;
   pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-MainLogo {
+  .Home-MainLogo {
     animation: zoom-in-zoom-out infinite 3s linear;
   }
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logoL2R {
+  .Home-logoL2R {
     animation: Logo-spinL2R infinite 5s ease-in-out;
   }
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logoR2L {
+  .Home-logoR2L {
     animation: Logo-spinR2L infinite 5s ease-in-out;
   }
 }
-.App-header {
+.Home-header {
   min-height: 21vmin;
   display: flex;
   flex-direction: column;
@@ -49,7 +49,7 @@
   padding-top: 50px;
 }
 
-.App-link {
+.Home-link {
   color: #f1a20d;
 }
 
