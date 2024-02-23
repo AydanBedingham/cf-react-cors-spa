@@ -203,3 +203,5 @@ Outputs:
     Value: !Sub "react-cors-spa-${SimpleAPI}"
   CFDistributionURL:
     Value: !GetAtt CFDistribution.DomainName
+  CFDistributionId:
+    Value: !GetAtt CFDistribution.Id
